@@ -1,1 +1,3 @@
 docker run -p 8081:80 -d sicei 
+
+docker build --tag ${GIT_BRANCH}:${BUILD_NUMBER} .
